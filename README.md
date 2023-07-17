@@ -2,15 +2,15 @@
 
 ## About
 
-This a theme for visual Studio Code created by Eduardo Nóbrega using the HSV3 color palette.
+This is a dark theme for visual Studio Code using the HSV3 color palette.
 
 ## Preview
 
-![Theme Preview](./assets/preview.jpg "Theme Preview")
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/enobrega/enobrega-hsv-theme/main/assets/preview.jpg"/></div>
 
 ## Color Palette
 
-<div style="text-align:center"><img src="assets/hsv3.png" width="300"/></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/enobrega/enobrega-hsv-theme/main/assets/hsv3.png" width="300"/></div>
 
 <!-- ## HEX Color codes
 
@@ -31,3 +31,13 @@ This a theme for visual Studio Code created by Eduardo Nóbrega using the HSV3 c
 #5fea65  
 
 -->
+
+## Author
+
+Eduardo Nóbrega
+Senior Developer in Brazil
+
+Please, if you liked, follow me in GitHub
+[My GitHub Profile](https://github.com/enobrega)
+
+Enjoy!!!
