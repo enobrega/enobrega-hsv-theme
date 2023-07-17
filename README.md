@@ -1,4 +1,4 @@
-# enobrega-hsv-theme README
+# README
 
 ## About
 
@@ -6,11 +6,11 @@ This a theme for visual Studio Code created by Eduardo Nóbrega using the HSV3 c
 
 ## Preview
 
-![Theme Preview](/assets/preview.jpg "Theme Preview")
+![Theme Preview](./assets/preview.jpg "Theme Preview")
 
 ## Color Palette
 
-<div style="text-align:center"><img src="assets/hsv3.png" /></div>
+<div style="text-align:center"><img src="assets/hsv3.png" width="300"/></div>
 
 <!-- ## HEX Color codes
 
@@ -28,4 +28,6 @@ This a theme for visual Studio Code created by Eduardo Nóbrega using the HSV3 c
 #2c97ec
 #5cf4f7
 #5fefa4
-#5fea65  -->
+#5fea65  
+
+-->
