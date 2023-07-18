@@ -2000,7 +2000,7 @@
     "gitDecoration.conflictingResourceForeground": "#8e4fe9",
     "gitDecoration.deletedResourceForeground": "#f24239",
     "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-    "gitDecoration.modifiedResourceForeground": "#f69646",
+    "gitDecoration.modifiedResourceForeground": "#fff",
     "gitDecoration.stageDeletedResourceForeground": "#f15ddf",
     "gitDecoration.stageModifiedResourceForeground": "#faf16e",
     "gitDecoration.submoduleResourceForeground": "#2c97ec",
