@@ -1,6 +1,6 @@
 # README
 
-Current version: 1.0.8
+Current version: 1.0.9
 
 ## About
 
@@ -38,7 +38,7 @@ This is a dark theme for visual Studio Code using the HSV3 color palette.
 Eduardo Nóbrega
 Senior Developer in Brazil
 
-Please, if you liked, follow me in GitHub
-[My GitHub Profile](https://github.com/enobrega)
+Please, if you liked, follow my
+[GitHub Profile](https://github.com/enobrega)
 
 Enjoy!!!
