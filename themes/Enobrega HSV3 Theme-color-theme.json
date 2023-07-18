@@ -1,5 +1,5 @@
 {
-  "name": "Eduardo Nóbrega HSV3 Theme",
+  "name": "enobrega-hsv3-dark-theme",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -782,8 +782,46 @@
       }
     },
     {
+      "name": "CSS Tags names",
+      "scope": ["entity.name.tag.css", "meta.selector.css", "source.css"],
+      "settings": {
+        "foreground": "#f15ddf"
+      }
+    },
+    {
+      "name": "CSS property values",
+      "scope": [
+        "support.constant.property-value.css",
+        "meta.property-value.css",
+        "meta.property-list.css",
+        "source.css"
+      ],
+      "settings": {
+        "foreground": "#faf16e"
+      }
+    },
+    {
+      "name": "HTML Tags",
+      "scope": "entity.name.tag.html",
+      "settings": {
+        "foreground": "#f15ddf"
+      }
+    },
+    {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#c5ed6a"
+      }
+    },
+    {
+      "name": "HTML Attributes Names",
+      "scope": [
+        "entity.other.attribute-name.html",
+        "meta.attribute.charset.html",
+        "meta.tag.metadata.meta.void.html",
+        "text.html.jinja"
+      ],
       "settings": {
         "foreground": "#c5ed6a"
       }
@@ -792,7 +830,6 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#5fefa4"
       }
     },
@@ -800,8 +837,19 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#c5ed6a"
+      }
+    },
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "entity.other.attribute-name.html",
+        "meta.attribute.rel.html",
+        "meta.tag.metadata.link.void.html",
+        "text.html.jinja"
+      ],
+      "settings": {
+        "foreground": "#5cf4f7"
       }
     },
     {
@@ -1026,6 +1074,18 @@
       }
     },
     {
+      "name": "HTML Quoted Strings",
+      "scope": [
+        "string.quoted.double.html",
+        "meta.attribute.rel.html",
+        "meta.tag.metadata.link.void.html",
+        "text.html.jinja"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
       "name": "Source Json Meta Structure Dictionary Json > String Quoted Json > Punctuation String",
       "scope": "source.json meta.structure.dictionary.json > string.quoted.json > punctuation.string",
       "settings": {
@@ -1044,61 +1104,6 @@
       "scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
       "settings": {
         "foreground": "#f15ddf"
-      }
-    },
-    //JSON
-    {
-      "name": "JSON String",
-      "scope": "meta.structure.dictionary.json string.quoted.double.json",
-      "settings": { "foreground": "#faf16e" }
-      // "settings": { "foreground": "#CFCFC2" }
-    },
-    //HTML
-    {
-      "scope": [
-        "string.comment.buffered.block.pug",
-        "string.quoted.pug",
-        "string.interpolated.pug",
-        "string.unquoted.plain.in.yaml",
-        "string.unquoted.plain.out.yaml",
-        "string.unquoted.block.yaml",
-        "string.quoted.single.yaml",
-        "string.quoted.double.xml",
-        "string.quoted.single.xml",
-        "string.unquoted.cdata.xml",
-        "string.quoted.double.html",
-        "string.quoted.single.html",
-        "string.unquoted.html",
-        "string.quoted.single.handlebars",
-        "string.quoted.double.handlebars"
-      ],
-      "settings": {
-        "foreground": "#0000FF"
-      }
-    },
-    {
-      "scope": [
-        "declaration.sgml.html declaration.doctype",
-        "declaration.sgml.html declaration.doctype entity",
-        "declaration.sgml.html declaration.doctype string",
-        "declaration.xml-processing",
-        "declaration.xml-processing entity",
-        "declaration.xml-processing string"
-      ],
-      "settings": {
-        "foreground": "#73817D",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": [
-        "meta.tag",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
-      ],
-      "settings": {
-        "foreground": "#91B3E0"
       }
     },
     {
