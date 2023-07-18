@@ -4,7 +4,7 @@
   "description": "Dark theme using HSV3 color palette",
   "icon": "assets/logo.png",
   "publisher": "EduardoNobrega",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "repository": "https://github.com/enobrega/enobrega-hsv-theme.git",
   "engines": {
     "vscode": "^1.22.0"

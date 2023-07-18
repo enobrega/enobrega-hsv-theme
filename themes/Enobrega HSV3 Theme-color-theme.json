@@ -808,6 +808,15 @@
       }
     },
     {
+      "name": "HTML Tags ponctuations",
+      "scope": ["punctuation.definition.tag.begin.html", "punctuation.definition.tag.end.html",
+      "meta.tag.metadata.meta.void.html",
+      "text.html.jinja"],
+      "settings": {
+        "foreground": "#fff"
+      }
+    },
+    {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
@@ -1935,8 +1944,6 @@
     "badge.foreground": "#ffffff",
     "terminal.foreground": "#cccccc",
     "terminal.selectionBackground": "#ffffff40",
-    "terminalCursor.background": "#181818",
-    "terminalCursor.foreground": "#1e1e1e",
     "terminal.border": "#80808059",
     "terminal.ansiBlack": "#000000",
     "terminal.ansiBlue": "#0047e7",
