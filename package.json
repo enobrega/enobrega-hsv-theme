@@ -4,7 +4,7 @@
   "description": "Dark theme based on HSV3 main colors range",
   "icon": "assets/logo.png",
   "publisher": "EduardoNobrega",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "repository": "https://github.com/enobrega/enobrega-hsv-theme.git",
   "engines": {
     "vscode": "^1.22.0"
