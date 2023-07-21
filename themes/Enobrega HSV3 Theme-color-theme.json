@@ -782,55 +782,8 @@
       }
     },
     {
-      "name": "CSS Tags names",
-      "scope": ["entity.name.tag.css", "meta.selector.css", "source.css"],
-      "settings": {
-        "foreground": "#f15ddf"
-      }
-    },
-    {
-      "name": "CSS property values",
-      "scope": [
-        "support.constant.property-value.css",
-        "meta.property-value.css",
-        "meta.property-list.css",
-        "source.css"
-      ],
-      "settings": {
-        "foreground": "#faf16e"
-      }
-    },
-    {
-      "name": "HTML Tags",
-      "scope": "entity.name.tag.html",
-      "settings": {
-        "foreground": "#f15ddf"
-      }
-    },
-    {
-      "name": "HTML Tags ponctuations",
-      "scope": ["punctuation.definition.tag.begin.html", "punctuation.definition.tag.end.html",
-      "meta.tag.metadata.meta.void.html",
-      "text.html.jinja"],
-      "settings": {
-        "foreground": "#fff"
-      }
-    },
-    {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#c5ed6a"
-      }
-    },
-    {
-      "name": "HTML Attributes Names",
-      "scope": [
-        "entity.other.attribute-name.html",
-        "meta.attribute.charset.html",
-        "meta.tag.metadata.meta.void.html",
-        "text.html.jinja"
-      ],
       "settings": {
         "foreground": "#c5ed6a"
       }
@@ -839,6 +792,7 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
+        "fontStyle": "normal",
         "foreground": "#5fefa4"
       }
     },
@@ -846,19 +800,8 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
+        "fontStyle": "normal",
         "foreground": "#c5ed6a"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
-        "entity.other.attribute-name.html",
-        "meta.attribute.rel.html",
-        "meta.tag.metadata.link.void.html",
-        "text.html.jinja"
-      ],
-      "settings": {
-        "foreground": "#5cf4f7"
       }
     },
     {
@@ -1080,18 +1023,6 @@
       "scope": "source.json meta.structure.dictionary.json > string.quoted.json",
       "settings": {
         "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "HTML Quoted Strings",
-      "scope": [
-        "string.quoted.double.html",
-        "meta.attribute.rel.html",
-        "meta.tag.metadata.link.void.html",
-        "text.html.jinja"
-      ],
-      "settings": {
-        "foreground": "#faf16e"
       }
     },
     {
@@ -1814,6 +1745,122 @@
       "settings": {
         "fontStyle": "italic"
       }
+    },
+    // Custom Colors
+    {
+      "name": "Properties names",
+      "scope": ["source.ignore"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    //JSON Files
+    {
+      "name": "Properties names",
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Dict key-value Ponctuation",
+      "scope": ["punctuation.separator.dictionary.key-value.json"],
+      "settings": {
+        "foreground": "#f15ddf"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string.quoted.double.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "meta.structure.array.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "source.json"
+      ],
+      "settings": {
+        "foreground": "#faf16e"
+      }
+    },
+    //HTML
+    {
+      "name": "Tag name",
+      "scope": ["entity.name.tag.html"],
+      "settings": {
+        "foreground": "#8e4fe9"
+      }
+    },
+    {
+      "name": "Attribute name",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": {
+        "foreground": "#5cf4f7"
+      }
+    },
+    //CSS
+    {
+      "name": "Tag selector",
+      "scope": ["entity.other.attribute-name.tag.css"],
+      "settings": {
+        "foreground": "#5cf4f7"
+      }
+    },
+    {
+      "name": "Id selector",
+      "scope": ["entity.other.attribute-name.id.css"],
+      "settings": {
+        "foreground": "#5fefa4"
+      }
+    },
+    {
+      "name": "Classes selector",
+      "scope": ["entity.other.attribute-name.class.css"],
+      "settings": {
+        "foreground": "#5fea65"
+      }
+    },
+    //Programming Languages
+    {
+      "name": "Classes",
+      "scope": ["support.class", "entity.name.type.class"],
+      "settings": {
+        "foreground": "#5cf4f7"
+      }
+    },
+    {
+      "name": "Interfaces",
+      "scope": "support.class, entity.name.type.interface",
+      "settings": {
+        "foreground": "#5cf4f7"
+      }
+    },
+    {
+      "name": "Primitive Types",
+      "scope": "support.type.primitive.ts",
+      "settings": {
+        "foreground": "#5fefa4"
+      }
+    },
+    {
+      "name": "Parameters variables",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#f69646"
+      }
+    },
+    {
+      "name": "Type parameters punctuations",
+      "scope": [
+        "punctuation.definition.typeparameters.begin",
+        "punctuation.definition.typeparameters.end"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
     }
   ],
   "colors": {
@@ -1827,7 +1874,7 @@
     "activityBarBadge.foreground": "#ffffff",
     "activityBarBadge.background": "#8e4fe9",
     "sideBar.background": "#252526",
-    "sideBar.foreground": "#cccccc",
+    "sideBar.foreground": "#d4d4d4",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#cccccc",
     "sideBarSectionHeader.border": "#cccccc33",
@@ -1851,7 +1898,7 @@
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.debuggingBackground": "#f69646",
     "statusBar.debuggingForeground": "#ffffff",
-    "statusBar.noFolderBackground": "#2c97ec",
+    "statusBar.noFolderBackground": "#f259a7",
     "statusBar.noFolderForeground": "#ffffff",
     "statusBarItem.remoteBackground": "#8e4fe9",
     "statusBarItem.remoteForeground": "#ffffff",
@@ -1860,15 +1907,15 @@
     "titleBar.inactiveBackground": "#3c3c3c99",
     "titleBar.inactiveForeground": "#cccccc99",
     "titleBar.border": "#00000000",
-    "menubar.selectionForeground": "#cccccc",
-    "menubar.selectionBackground": "#ffffff1a",
-    "menu.foreground": "#cccccc",
-    "menu.background": "#252526",
+    "menubar.selectionForeground": "#ffffff",
+    "menubar.selectionBackground": "#8e4fe9",
+    "menu.foreground": "#d4d4d4",
+    "menu.background": "#323233",
     "menu.selectionForeground": "#ffffff",
     "menu.selectionBackground": "#8e4fe9",
     "menu.selectionBorder": "#00000000",
-    "menu.separatorBackground": "#bbbbbb",
-    "menu.border": "#00000085",
+    "menu.separatorBackground": "#858585",
+    "menu.border": "#252526",
     "button.background": "#8e4fe9",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#5f3899",
@@ -1972,12 +2019,12 @@
     "tab.activeBorderTop": "#000000",
     "tab.inactiveBackground": "#2d2d2d",
     "tab.inactiveForeground": "#ffffff80",
-    "tab.hoverBackground": "#8e4fe9",
+    "tab.hoverBackground": "#1e1e1e80",
     "tab.hoverForeground": "#ffffff",
     "scrollbarSlider.background": "#79797966",
     "scrollbarSlider.hoverBackground": "#646464b3",
     "scrollbarSlider.activeBackground": "#bfbfbf66",
-    "progressBar.background": "#f259a7",
+    "progressBar.background": "#8e4fe9",
     "widget.shadow": "#0000005c",
     "editorWidget.foreground": "#cccccc",
     "editorWidget.background": "#252526",
@@ -2000,7 +2047,7 @@
     "gitDecoration.conflictingResourceForeground": "#8e4fe9",
     "gitDecoration.deletedResourceForeground": "#f24239",
     "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-    "gitDecoration.modifiedResourceForeground": "#fff",
+    "gitDecoration.modifiedResourceForeground": "#f69646",
     "gitDecoration.stageDeletedResourceForeground": "#f15ddf",
     "gitDecoration.stageModifiedResourceForeground": "#faf16e",
     "gitDecoration.submoduleResourceForeground": "#2c97ec",
