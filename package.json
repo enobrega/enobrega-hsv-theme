@@ -1,10 +1,10 @@
 {
   "name": "enobrega-hsv-theme",
-  "displayName": "Dark HSV3 Theme",
-  "description": "Dark theme using HSV3 color palette",
+  "displayName": "Dark HSV Theme",
+  "description": "Dark theme based on HSV3 main colors range",
   "icon": "assets/logo.png",
   "publisher": "EduardoNobrega",
-  "version": "1.0.10",
+  "version": "1.0.22",
   "repository": "https://github.com/enobrega/enobrega-hsv-theme.git",
   "engines": {
     "vscode": "^1.22.0"
@@ -16,7 +16,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark HSV3 Theme",
+        "label": "Dark HSV Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Enobrega HSV3 Theme-color-theme.json"
       }
@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "vsce": "^2.15.0"
+  },
+  "dependencies": {
+    "grunt-bump": "^0.8.0"
   }
 }
